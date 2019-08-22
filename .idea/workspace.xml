@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5bc4f04d-a6fb-4cbb-844f-84cdd4b1cc3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver_64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver_32" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
       <recent name="$PROJECT_DIR$/src/main/resources/drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -162,7 +162,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566474895398</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated value">
+      <created>1566475827362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566475827362</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated value">
+      <created>1566476013963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566476013963</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated value">
+      <created>1566476734690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566476734690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
