@@ -18,6 +18,7 @@ public class basic {
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
         options.addArguments("--start-maximized");
         options.addArguments("--disable-extensions");
         options.addArguments("--disable-gpu");
@@ -50,7 +51,7 @@ public class basic {
     @Test
     public void test() throws Exception {
 
-        //launchChrome();
+        launchChrome();
         launchFirefox();
     }
 }
