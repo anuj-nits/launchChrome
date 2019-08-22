@@ -3,9 +3,11 @@ package runner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.Collections;
 
 public class basic {
@@ -30,9 +32,23 @@ public class basic {
         driver.quit();
     }
 
+    private void launchFirefox() throws Exception {
+
+        System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver");
+        FirefoxOptions options = new FirefoxOptions();
+        options.setBinary("/home/sterlite/Downloads/firefox/firefox");
+        options.setProfile(new FirefoxProfile());
+        WebDriver driver = new FirefoxDriver(options);
+        driver.manage().window().maximize();
+        driver.get("https://www.google.com");
+        Thread.sleep(5000);
+        driver.quit();
+    }
+
     @Test
     public void test() throws Exception {
 
-        launchChrome();
+        //launchChrome();
+        launchFirefox();
     }
 }
