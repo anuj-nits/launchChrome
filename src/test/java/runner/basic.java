@@ -38,6 +38,7 @@ public class basic {
         FirefoxOptions options = new FirefoxOptions();
         options.setBinary("/home/sterlite/Downloads/firefox/firefox");
         options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
         options.setProfile(new FirefoxProfile());
         WebDriver driver = new FirefoxDriver(options);
         driver.manage().window().maximize();
