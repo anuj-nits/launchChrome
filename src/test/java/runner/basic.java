@@ -37,6 +37,7 @@ public class basic {
         System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver");
         FirefoxOptions options = new FirefoxOptions();
         options.setBinary("/home/sterlite/Downloads/firefox/firefox");
+        options.addArguments("--no-sandbox");
         options.setProfile(new FirefoxProfile());
         WebDriver driver = new FirefoxDriver(options);
         driver.manage().window().maximize();
