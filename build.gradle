@@ -11,7 +11,7 @@ repositories {
     mavenCentral()
 }
 
-task runAPIPrerequiste(type: Test) {
+task runBasic(type: Test) {
     useTestNG() {
         include '**/basic.class'
     }
