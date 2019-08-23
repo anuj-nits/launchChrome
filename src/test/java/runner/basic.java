@@ -12,7 +12,6 @@ import java.util.Collections;
 
 public class basic {
 
-
     private void launchChrome() throws Exception {
 
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver");
