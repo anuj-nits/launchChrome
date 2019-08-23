@@ -12,7 +12,8 @@ import java.util.Collections;
 
 public class basic {
 
-    private void launchChrome() throws Exception {
+    @Test
+    public void launchChrome() throws Exception {
 
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver");
         ChromeOptions options = new ChromeOptions();
@@ -32,7 +33,8 @@ public class basic {
         driver.quit();
     }
 
-    private void launchFirefox() throws Exception {
+    @Test
+    public void launchFirefox() throws Exception {
 
         System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver");
         FirefoxOptions options = new FirefoxOptions();
@@ -45,12 +47,5 @@ public class basic {
         driver.get("https://www.google.com");
         Thread.sleep(5000);
         driver.quit();
-    }
-
-    @Test
-    public void test() throws Exception {
-
-        launchChrome();
-        launchFirefox();
     }
 }
